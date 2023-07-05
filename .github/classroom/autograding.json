@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Automated Test  bodymassindex",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest body-mass-index",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Automated Test acloadestimator",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest ac-load-estimator",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Automated Test usdtonairaconversion",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest usd-to-naira-conversion",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
