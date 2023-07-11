@@ -1,9 +1,9 @@
 # TODO 1: Replace the below code to accept the "weight" and "height" values as input from the user
-weight = 1
-height = 1
+weight = input("Enter the weight in kg: ")
+height = input("Enter the height in m: ")
 
 # TODO 2: Calculate the BMI value based on the weight and height values
-BMI = 5
+BMI = float(weight) / (float(height) ** 2)
 
 # This is a handy function to round the number to a 1 decimal point
 # Don't change the code below
